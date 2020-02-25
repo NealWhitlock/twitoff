@@ -5,7 +5,7 @@ from flask import Flask, render_template
 # Make the application
 app = Flask(__name__)
 
-# Make the route
+# Make the route (roots tell you which page to go to)
 @app.route("/")
 
 # Now define a function (assigned to the route right above it).

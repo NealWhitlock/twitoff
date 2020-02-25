@@ -1,4 +1,4 @@
-"""Code for out app"""
+"""Code for our app"""
 
 from flask import Flask
 from .models import DB
